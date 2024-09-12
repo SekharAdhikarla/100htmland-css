@@ -1,0 +1,34 @@
+.Scrollbar-auto {
+    height: 150px;
+    width: 250px;
+    scrollbar-width: auto;
+    padding: 15px 12px 20px 12px;
+    margin: 15px;
+    overflow-y: scroll ;
+    background-color: rgb(182, 194, 194);
+    color: red;
+    line-height: 16px;
+    
+    
+}
+.card {
+    height: 250px;
+    width: 250px;
+    scrollbar-width: auto;
+    padding: 15px 12px 20px 12px;
+    margin: 15px;
+    overflow-y: scroll ;
+    background-color: rgb(182, 194, 194);
+    color: red;
+    line-height: 16px;
+    
+    
+}
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+    color: aquamarine;
+}
+::-webkit-scrollbar-thumb {
+    background:linear-gradient(#465221 #db9f14) ;
+}
